@@ -9,18 +9,10 @@ namespace EBS4luacici
         public Form2()
         {
             InitializeComponent();
-            InitializeComponents();
+            
         }
-
-        private SplitContainer splitContainer;
         private bool resizing = false; // Kullanıcı yeniden boyutlandırıyor mu
         private Point lastMousePosition; // Son mouse konumu
-
-        private void InitializeComponents()
-        {
-
-
-        }
 
         private Point lastPoint;
 
@@ -41,6 +33,7 @@ namespace EBS4luacici
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
